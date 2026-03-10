@@ -2,9 +2,10 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
+
 import CategoryTabs from './components/CategoryTabs';
 import ArticleList from './components/ArticleList';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
